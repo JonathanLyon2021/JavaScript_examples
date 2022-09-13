@@ -3,7 +3,7 @@
 function animate_string(id) 
 {
     var element = document.getElementById(id);
-    var textNode = element.childNodes[0]; // assuming no other children
+    var textNode = element.childNodes[0]; // assuming there are no other children
     var text = textNode.data;
 
 setInterval(function () 
